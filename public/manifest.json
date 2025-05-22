@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Nudge",
+    "version": "1.0",
+    "description": "Your AI-powered focus companion",
+    "side_panel": {
+        "default_path": "index.html"
+    },
+    "permissions": ["sidePanel"],
+    "host_permissions": ["<all_urls>"]
+  }
