@@ -42,4 +42,8 @@ body {
     padding-bottom: 5px;
     padding-left: 12px;
     padding-right: 12px;
-  }
+}
+
+#video {
+    display: none;
+}

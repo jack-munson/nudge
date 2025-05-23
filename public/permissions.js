@@ -1,3 +1,5 @@
+const video = document.getElementById('video');
+
 document.addEventListener('DOMContentLoaded', () => {
     const button = document.getElementById('camera-button');
     button.addEventListener('click', setupCamera);
@@ -26,8 +28,11 @@ async function setupCamera() {
         // Start processing frames
         // processFrames();
       };
+
+      chrome.runtime.sendMessage({ type: 'CAMERA_GRANTED'});
   
     } catch (error) {
-      console.error('Error accessing webcam:', error.name);
+      console.error('Error accessing webcam:', error.message);
+      chrome.runtime.sendMessage({ type: 'CAMERA_DENIED'});
     }
 }
