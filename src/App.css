@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.sidepanel-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidepanel-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidepanel-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.header-logo {
+  height: 38px;
+}
+
+.header-settings-icon {
+  height: 100px;
+  color: #1E0793;
+  margin-bottom: 5px;
+}
+
+.welcome-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+
+.primary-text {
+  font-size: 30px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.secondary-text {
+  font-size: 20px;
+  font-weight: 550;
+  color: #1E0793;
+  margin-bottom: 18px;
+}
+
+.camera-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #222222;
+  margin-bottom: 18px;
+}
+
+.disclaimer-text {
+  font-size: 13px;
+  font-weight: 450;
+  color: #222222;
+  margin-bottom: 5px;
+}
+
+.camera-button {
+  background-color: #1E0793;
   color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.filler-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filler-text {
+  font-size: 16px;
+  font-weight: 550;
+  color: #1E0793;
+  margin-bottom: 15px;
 }
