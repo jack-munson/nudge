@@ -1,0 +1,45 @@
+body {
+    overflow: hidden;
+}
+
+.permissions-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    height: 38px;
+}
+
+.permissions-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.permissions-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+.camera-button {
+    background-color: #1E0793;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
